@@ -1,7 +1,6 @@
 import 'package:befit/datetime/date_time.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_heatmap_calendar/flutter_heatmap_calendar.dart';
-
 class MyHeatMap extends StatefulWidget {
   final Map<DateTime , int>? datasets;
   final String startDateYYYYMMDD;
