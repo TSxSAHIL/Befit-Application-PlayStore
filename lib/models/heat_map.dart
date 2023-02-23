@@ -9,7 +9,6 @@ class MyHeatMap extends StatefulWidget {
   required this.datasets,
   required this.startDateYYYYMMDD,
   });
-
   @override
   State<MyHeatMap> createState() => _MyHeatMapState();
 }
