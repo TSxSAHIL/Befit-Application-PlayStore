@@ -4,7 +4,6 @@ import 'package:flutter_heatmap_calendar/flutter_heatmap_calendar.dart';
 class MyHeatMap extends StatefulWidget {
   final Map<DateTime , int>? datasets;
   final String startDateYYYYMMDD;
-  
   const MyHeatMap({super.key,
   required this.datasets,
   required this.startDateYYYYMMDD,
