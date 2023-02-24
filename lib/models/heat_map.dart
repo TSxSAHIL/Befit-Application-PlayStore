@@ -31,7 +31,6 @@ class _MyHeatMapState extends State<MyHeatMap> {
         showText: true,
         scrollable: true,
         size: 30,
-        
       ),
     );
   }
