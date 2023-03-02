@@ -25,7 +25,6 @@ DateTime createDateTimeObject(String yyyymmdd){
   DateTime dateTimeObject = DateTime(yyyy , mm , dd);
   return dateTimeObject;
 }
-
 //convert DateTime object to a string yy//mm//dd
 String convertDateTimeToYYYYMMDD(DateTime dateTime){
   String year = dateTime.year.toString();
