@@ -10,7 +10,6 @@ import '../data/workout_data.dart';
 class WorkoutPage extends StatefulWidget {
   final String workoutname;
   const WorkoutPage({super.key  , required this.workoutname});
-
   @override
   State<WorkoutPage> createState() => _WorkoutPageState();
 }
