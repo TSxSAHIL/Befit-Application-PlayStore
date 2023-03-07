@@ -4,7 +4,6 @@ import 'package:befit/constants/app_constants.dart';
 import 'package:befit/models/exercise_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../data/workout_data.dart';
 class WorkoutPage extends StatefulWidget {
   final String workoutname;
