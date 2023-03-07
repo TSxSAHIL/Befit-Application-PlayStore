@@ -18,6 +18,7 @@ class _WorkoutPageState extends State<WorkoutPage> {
     checkOffExercise(
       workoutName, exerciseName);
   }
+  
   //text controllers
   final exerciseNameController = TextEditingController();
   final setsController = TextEditingController();
