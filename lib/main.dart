@@ -17,6 +17,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'constants/app_constants.dart';
 
+
 Future<void> main() async {
   //initalize Hive
   await Hive.initFlutter();
