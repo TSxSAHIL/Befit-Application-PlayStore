@@ -18,7 +18,6 @@ import 'package:provider/provider.dart';
 import 'constants/app_constants.dart';
 
 Future<void> main() async {
-  //initalize Hive
   await Hive.initFlutter();
   //open a Hive Box
   await Hive.openBox("workout_database");
