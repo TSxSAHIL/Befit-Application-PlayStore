@@ -21,7 +21,6 @@ class _WorkoutState extends State<Workout> {
     super.initState();
     Provider.of<WorkoutData>(context , listen: false).initalizeWorkoutList();
   }
-
   //text controller 
   final newWorkoutNameController = TextEditingController();
 
