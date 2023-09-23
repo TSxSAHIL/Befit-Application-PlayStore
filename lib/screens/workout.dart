@@ -23,7 +23,6 @@ class _WorkoutState extends State<Workout> {
   }
   //text controller 
   final newWorkoutNameController = TextEditingController();
-
   //create a new workout
   void createNewWorkout(){
     showDialog(context: context, 
