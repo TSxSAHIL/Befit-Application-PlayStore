@@ -22,7 +22,6 @@ class _WorkoutState extends State<Workout> {
     Provider.of<WorkoutData>(context , listen: false).initalizeWorkoutList();
   }
 
-  //text controller 
   final newWorkoutNameController = TextEditingController();
 
   //create a new workout
