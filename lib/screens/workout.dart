@@ -11,7 +11,6 @@ import 'package:provider/provider.dart';
 
 class Workout extends StatefulWidget {
   const Workout({super.key});
-
   @override
   State<Workout> createState() => _WorkoutState();
 }
