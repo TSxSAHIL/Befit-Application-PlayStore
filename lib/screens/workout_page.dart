@@ -14,7 +14,6 @@ class WorkoutPage extends StatefulWidget {
   @override
   State<WorkoutPage> createState() => _WorkoutPageState();
 }
-
 class _WorkoutPageState extends State<WorkoutPage> {
   //checkbox was tapped
   void OnCheckChanged(String workoutName , String exerciseName){
