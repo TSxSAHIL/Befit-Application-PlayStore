@@ -80,6 +80,7 @@ class _WorkoutPageState extends State<WorkoutPage> {
       ],
     ));
   }
+  
   //save workout
     void save(){
       //get exercise from the text controller 
