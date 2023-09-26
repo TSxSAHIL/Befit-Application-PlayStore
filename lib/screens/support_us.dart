@@ -8,7 +8,6 @@ import 'package:contactus/contactus.dart';
 
 class SupportUsPage extends StatelessWidget {
   const SupportUsPage({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
