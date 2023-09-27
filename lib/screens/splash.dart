@@ -1,7 +1,6 @@
 // ignore_for_file: unused_import, non_constant_identifier_names
 
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:befit/constants/app_constants.dart';
