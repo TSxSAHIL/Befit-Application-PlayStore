@@ -5,7 +5,6 @@ import 'package:befit/main.dart';
 import 'package:flutter/material.dart';
 import 'package:contactus/contactus.dart';
 
-
 class SupportUsPage extends StatelessWidget {
   const SupportUsPage({Key? key}) : super(key: key);
   @override
