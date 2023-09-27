@@ -20,6 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     IsLogin();
   }
+  
   void IsLogin() async {
     SharedPreferences sp = await SharedPreferences.getInstance();
     bool isLogin = sp.getBool('IsLogin') ?? false;
