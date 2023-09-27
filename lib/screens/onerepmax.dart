@@ -10,7 +10,6 @@ import 'my_drawer_header.dart';
 
 class OneRepMax extends StatefulWidget {
   const OneRepMax({super.key});
-
   @override
   State<OneRepMax> createState() => _OneRepMaxState();
 }
